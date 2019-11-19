@@ -71,14 +71,28 @@ main::after{
 }
 .float-left{
   float: left;
+
 }
 
 
 .col-left{
-  background-color: purple;
+  background-color: white;
   width: 30%;
-  border: 2px solid black;
   margin-bottom: 5%;
+}
+#colh3{
+  color: #504741;
+  font-size: 30px;
+  font-weight: 400;
+  text-shadow: 1px 1px #000000;
+}
+.col-left nav ul{
+  list-style: none;
+}
+.col-left nav ul li {
+  color: green;
+  text-align:justify;
+  text-transform: capitalize;
 }
 .col-center{
   background-color: purple;
