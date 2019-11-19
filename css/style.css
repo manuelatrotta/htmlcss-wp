@@ -139,10 +139,10 @@ main::after{
 
 }
 .col-right .widget{
-  margin-top: 20px;
+  border-radius: 5px;
   margin-bottom: 20px;
   padding: 5px;
-  background-color: purple;
+  background-color: white;
 }
 
 
