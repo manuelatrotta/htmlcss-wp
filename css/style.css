@@ -78,7 +78,9 @@ main::after{
 .col-left{
   background-color: white;
   width: 30%;
+  padding: 5px;
   margin-bottom: 5%;
+
 }
 #colh3{
   color: #504741;
@@ -86,11 +88,14 @@ main::after{
   font-weight: 400;
   text-shadow: 1px 1px #000000;
 }
-.col-left nav ul{
+.menu{
   list-style: none;
 }
-.col-left nav ul li {
+
+.menu li {
+  margin-bottom: 5px;
   color: green;
+  font-size: 14px;
   text-align:justify;
   text-transform: capitalize;
 }
