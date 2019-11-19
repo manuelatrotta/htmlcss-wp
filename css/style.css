@@ -158,7 +158,25 @@ main::after{
 
 footer{
   margin: 10% 0;
-  background-color: pink;
+  background-color: lightgrey;
   width: 100%;
-  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+}
+footer .footer-top{
+  padding: 2px;
+  text-align: center;
+  border-bottom: 3px solid grey;
+}
+footer .footer-bottom::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+footer .footer-bottom .footer-col{
+  float: left;
+  width: calc(100% / 3);
+  padding:20px;
+  text-align: center;
+  font-size: 20px;
 }
