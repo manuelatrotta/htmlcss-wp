@@ -37,7 +37,7 @@ body{
 }
 .header-bottom{
   background-color: #504643;
-  height: 100px;
+  height: 50px;
   line-height: 50px;
 }
 .header-bottom nav ul{
@@ -46,6 +46,16 @@ body{
 }
 .header-bottom li{
   display: inline-block;
+}
+.header-bottom li a{
+  display: inline-block;
+  padding: 0 5px;
+  color: white;
+  background-color: #322a26;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
 }
 main{
   padding: 10px 10px;
