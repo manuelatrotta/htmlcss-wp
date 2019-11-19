@@ -51,11 +51,14 @@ body{
   display: inline-block;
   padding: 0 5px;
   color: white;
-  background-color: #322a26;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
+}
+.header-bottom nav ul li a:hover{
+  color:#C8C6C5;
+  background-color: #322a26;
 }
 main{
   padding: 10px 10px;
