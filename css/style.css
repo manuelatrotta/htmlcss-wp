@@ -141,8 +141,18 @@ main::after{
 .col-right .widget{
   border-radius: 5px;
   margin-bottom: 20px;
-  padding: 5px;
+  padding: 10px;
   background-color: white;
+}
+.widget h2{
+  color: #504742;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.widget p{
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: bold;
 }
 
 
