@@ -6,7 +6,8 @@
 body{
   font-family: 'Raleway', sans-serif;
   background-image: url(../img/natural-pattern.png);
-  padding: 10%;
+  padding:5px;
+  margin: 20px;
 }
 
 .header-top{
@@ -61,8 +62,7 @@ body{
   background-color: #322a26;
 }
 main{
-  padding: 10px 10px;
-  background-color: green;
+padding: 10px;
 }
 main::after{
   content: "";
@@ -71,18 +71,17 @@ main::after{
 }
 .float-left{
   float: left;
-
 }
-
 
 .col-left{
   background-color: white;
   width: 30%;
-  padding: 5px;
-  margin-bottom: 5%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
 }
-.col-left-header
-#colh3{
+.col-left-header h3{
+  width: 90%;
   color: #504741;
   font-size: 30px;
   font-weight: 400;
@@ -93,6 +92,17 @@ main::after{
   display: table;
   clear: both;
 }
+.col-left-header i,
+.col-left-header h3{
+  float: right;
+}
+.col-left-header i{
+  font-size: 20px;
+  color: orange;
+  margin-right:5px;
+}
+
+
 .menu{
   list-style: none;
 }
@@ -100,18 +110,27 @@ main::after{
 .menu li {
   margin-bottom: 5px;
   color: green;
-  font-size: 14px;
+  font-size: 15px;
   text-align:justify;
   text-transform: capitalize;
+  font-weight: bold;
 }
 .col-center{
-  background-color: purple;
+  background-color: white;
   width: 40%;
-  border: 2px solid black;
-  margin:0 3%;
+  border-radius: 5px;
+  margin: 0 3%;
+}
+.col-center .title{
+  margin-bottom: 20px;
+  font-weight: 400;
+  color: #302A25;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 3px #5d5147;
 }
 .col-right{
   width: 24%;
+
 }
 .col-right .widget{
   margin-top: 20px;
